@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Success</title>
 
-    <!-- bootstrap cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/dist/css/bootstrap.min.css">
+  <!-- Bootstrap CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+  />
+
+  <style>
+    body {
+      height: 100vh;
+      background: linear-gradient(135deg, #4CAF50, #2E7D32);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card {
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      background: #ffffff;
+      color: #333;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      max-width: 420px;
+    }
+    .emoji {
+      font-size: 60px;
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Success✅</h1>
-            <p class="lead">Your emial has been successfully saved! , look out for awesome content from our newsletter 🙈</p>
-        </div>
-    </div>
+  <div class="card">
+    <div class="emoji">✅</div>
+    <h2 class="mb-3">You're In!</h2>
+    <p>
+      Your email was successfully added to our newsletter.  
+      Get ready for awesome updates coming your way 🎉
+    </p>
+  </div>
 </body>
 </html>
