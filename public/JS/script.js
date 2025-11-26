@@ -103,7 +103,7 @@ document.getElementById("signUpForm").addEventListener("submit", (event) => {
   //   RULE 3: email validation
 
   if (!emailPattern.test(emailValue)) {
-    event.preventDefault;
+    event.preventDefault();
     errorMessage.classList.add("red");
     errorMessage.textContent = "Invalid Email";
     flashInput(email);

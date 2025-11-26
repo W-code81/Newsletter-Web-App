@@ -78,6 +78,11 @@ img {
   box-shadow: 0 0 12px rgba(255, 77, 77, 0.5);
 }
 
+.valid {
+  border: 2px solid #28a745;
+}
+
+
 .hidden{
   opacity: 0;
   transform: translateY(-10px);
